@@ -1,0 +1,9 @@
+- [ ] Aktuální počasí (weather api, https://www.mesto-bohumin.cz/)
+- [ ] Interaktivní mapa vesnice (inspirace - https://www.kolopro.cz/)
+- [ ] Potřebuji si na úřadě začídit (inspirace - https://tisa.cz/ (dole))
+- [ ] Eon odstávka elektřiny
+- [ ] Úřední hodiny, kontakt (samostatná stránka)
+- [ ] Kalendář akcí (inspirace - https://lukanadjihlavou.cz/ https://www.mesto-bohumin.cz/)
+- [ ] Oddíl hasičů (join, info atd.)
+- [ ] x
+- [ ] Pokud bude hodně času, tak admin panel
