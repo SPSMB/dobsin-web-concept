@@ -7,3 +7,4 @@
 - [ ] Oddíl hasičů (join, info atd.)
 - [ ] x
 - [ ] Pokud bude hodně času, tak admin panel
+- [ ] Foto-galerie vesnice
