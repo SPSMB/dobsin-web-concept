@@ -8,3 +8,4 @@
 - [ ] x
 - [ ] Pokud bude hodně času, tak admin panel
 - [ ] Foto-galerie vesnice
+- [ ] Základní informace o vesnici (rozloha, počet obyvatel, kde se nachází...)
