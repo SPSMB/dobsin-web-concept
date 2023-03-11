@@ -5,7 +5,7 @@
 - [ ] Úřední hodiny, kontakt (samostatná stránka)
 - [ ] Kalendář akcí (inspirace - https://lukanadjihlavou.cz/ https://www.mesto-bohumin.cz/)
 - [ ] Oddíl hasičů (join, info atd.)
-- [ ] x
+- [ ] Tipy na výlet v okolí
 - [ ] Pokud bude hodně času, tak admin panel
 - [ ] Foto-galerie vesnice
 - [ ] Základní informace o vesnici (rozloha, počet obyvatel, kde se nachází...)
