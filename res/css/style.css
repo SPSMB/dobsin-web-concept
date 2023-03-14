@@ -132,22 +132,35 @@ body.noScroll{
     flex-direction: column;
     row-gap: 8px;
     cursor: pointer;
+    align-items: flex-end;
 }
 .nav__toggle{
     display: block;
-    width: 42px;
     height: 2px;
     background-color: var(--bg-dark-brown);
     transform-origin: 7px 1px;
-    transition: transform 225ms ease-in-out, opacity 185ms ease-in-out;
+    transition: transform 225ms ease-in-out, opacity 185ms ease-in-out, width 200ms ease-in-out;
 }
+.nav__toggle:first-of-type{
+    width: 40px;
+}
+.nav__toggle:nth-of-type(2){
+    width: 48px;
+}
+.nav__toggle:last-of-type{
+    width: 33px;
+}
+
 .nav.navActive .nav__toggleBx .nav__toggle:first-of-type{
+    width: 42px;
     transform: rotate(45deg);
 }
 .nav.navActive .nav__toggleBx .nav__toggle:nth-of-type(2){
+    width: 42px;
     opacity: 0;
 }
 .nav.navActive .nav__toggleBx .nav__toggle:last-of-type{
+    width: 42px;
     transform: rotate(-45deg);
 }
 
@@ -233,6 +246,12 @@ body.noScroll{
 @media only screen and (min-width: 62.0625em){
     .nav{
         padding: 46px 90px;
+    }
+    .nav__logo{
+        transition: transform 200ms ease-in-out;
+    }
+    .nav__logo:hover{
+        transform: rotate(4deg) scale(1.08);
     }
     .nav__links{
         position: relative;
@@ -382,7 +401,7 @@ body.noScroll{
     }
 }
 
-@media only screen and (min-width: 47.5em){
+@media only screen and (min-width: 43.5em){
     .footer{
         padding-block: 58px 50px;
     }
@@ -401,7 +420,7 @@ body.noScroll{
     }
 }
 
-@media only screen and (min-width: 57.5em){
+@media only screen and (min-width: 50em){
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px 70px;
@@ -414,6 +433,19 @@ body.noScroll{
     }
     .footer__createdBy{
         margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 62.0625em){
+    .footer__container{
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 44px 40px;
+    }
+    .footer__bx:last-of-type{
+        grid-column: 5/1;
+    }
+    .footer__createdBy{
+        margin-top: 26px;
     }
 }
 
@@ -430,6 +462,9 @@ body.noScroll{
     .footer__title{
         font-weight: 500;
         margin-bottom: 22px;
+    }
+    .footer__linkBx{
+        align-items: flex-start;
     }
     .footer__bx:last-of-type{
         grid-column: unset;
