@@ -626,4 +626,93 @@ body.noScroll{
     font-size: 18px;
     font-weight: 400;
     padding: 12px 14px;
+    background-color: #8c55351f;
+    transition: background-color 225ms ease-in-out;
+}
+.header__btn:hover{
+    background-color: var(--bg-light-brown);
+}
+
+
+@media only screen and (min-width: 33.5em){
+    .header__cover{
+        row-gap: 42px;
+    }
+    .header__title{
+        font-size: 36px;
+    }
+    .header__btnBx{
+        row-gap: 20px;
+    }
+    .header__btn{
+        font-size: 19px;
+        padding: 14px 20px;
+    }
+}
+
+@media only screen and (min-width: 47.5em){
+    .header__title{
+        font-size: 44px;
+    }
+    .header__btnBx{
+        flex-direction: row;
+        row-gap: 0;
+        column-gap: 20px;
+    }
+    .header__btn{
+        font-size: 20px;
+        padding: 18px 26px;
+    }
+}
+
+@media only screen and (min-width: 57.5em){
+    .header__title{
+        font-size: 46px;
+    }
+    .header__btnBx{
+        column-gap: 24px;
+    }
+    .header__btn{
+        padding: 18px 28px;
+    }
+}
+
+@media only screen and (min-width: 62.0625em){
+    .header__cover{
+        row-gap: 46px;
+    }
+    .header__btn{
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 76em){
+    .header__title{
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width: 87.5em){
+    .header__title{
+        font-size: 50px;
+    }
+    .header__btnBx{
+        column-gap: 32px;
+    }
+    .header__btn{
+        font-size: 22px;
+        padding: 19px 32px;
+    }
+}
+
+@media only screen and (min-width: 102em){
+    .header__cover{
+        row-gap: 52px;
+    }
+    .header__title{
+        font-size: 54px;
+    }
+    .header__btn{
+        padding: 20px 34px;
+    }
 }
