@@ -1,9 +1,18 @@
 ## UVOD
-- [x] nadpis (in header)
 - [x] Header
-- [ ] aktuality (news)
-- [ ] Potřebuji si na úřadě zařídit (manage)
-- [ ] důležité odkazy(čez, GOobec, hlášení rozhlasu)
+    - [x] nadpis
+    - [x] header
+- [x] aktuality (news)
+- [] Potřebuji si zařídit (manage)
+    - [x] Design
+    - [ ] Telefoní Čísla
+    - [ ] Odkazy
+    - [ ] čez distribuce
+    - [ ] czechpoint
+    - [ ] územní plán + goobec link/banner
+    - [ ] Poplatky
+    - [ ] hlášení rozhlasu
+    - [ ] multifunkční sál
 
 ## INFORMACE
 - [ ] základní informace (vodovod - ano)

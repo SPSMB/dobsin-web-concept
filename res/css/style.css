@@ -643,7 +643,7 @@ body.noScroll{
     align-items: center;
     justify-content: center;
     padding: 42px 14px 46px 14px;
-    background-color: var(--text-light-white);
+    background: linear-gradient(180deg, var(--text-light-white), white);
 }
 .news__title{
     font-size: 30px;
@@ -760,7 +760,100 @@ body.noScroll{
 }
 
 
-/* HOME BREAKPOINTS */
+/* MANAGE */
+.manage{
+    background-color: #59331d08;
+    padding-block: 60px 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.manage__title{
+    text-align: center;
+    color: var(--bg-dark-brown);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.manage__container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4px;
+}
+.manage__bx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    row-gap: 12px;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.manage__bx::before,
+.manage__bx::after{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    display: block;
+    border-radius: inherit;
+    pointer-events: none;
+    transition: width 250ms ease-in-out, height 250ms ease-in-out, border-color 1ms linear 250ms;
+}
+.manage__bx::before{
+    border-left: 2px solid transparent;
+    border-top: 2px solid transparent;
+    left: 0;
+    top: 0;
+}
+.manage__bx::after{
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    right: 0;
+    bottom: 0;
+}
+.manage__bx:hover::before,
+.manage__bx:hover::after{
+    width: 100%;
+    height: 100%;
+    border-color: var(--bg-light-brown);
+    transition: width 250ms ease-in-out, height 250ms ease-in-out;
+}
+
+.manage__icon{
+    width: 46px;
+    transition: transform 225ms ease-in-out;
+}
+.manage__bx:hover .manage__icon{
+    transform: scale(1.1) rotate(4deg);
+}
+.manage__name{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* JUST FOR DEVELOPMENT */
+/* .manage__bx:nth-of-type(2)::before,
+.manage__bx:nth-of-type(2)::after,
+.manage__bx:nth-of-type(3)::before,
+.manage__bx:nth-of-type(3)::after{
+    width: 100%;
+    height: 100%;
+    border-color: var(--bg-light-brown);
+    transition: width 250ms ease-in-out, height 250ms ease-in-out;
+}
+.manage__bx:nth-of-type(2) .manage__icon,
+.manage__bx:nth-of-type(3) .manage__icon{
+    transform: scale(1.1) rotate(4deg);
+} */
+/* END */
+
+
+
+/* HOME PAGE BREAKPOINTS */
 @media only screen and (min-width: 33.5em){
     /* HEADER */
     .header__cover{
@@ -817,6 +910,29 @@ body.noScroll{
 
     
     /* MANAGE */
+    .manage{
+        padding-block: 66px 60px;
+    }
+    .manage__title{
+        font-size: 34px;
+        margin-bottom: 34px;
+    }
+    .manage__container{
+        width: max-content;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px 22px;
+    }
+    .manage__bx{
+        row-gap: 16px;
+        padding: 18px 24px 12px 24px;
+    }
+    .manage__icon{
+        width: 48px;
+    }
+    .manage__name{
+        font-size: 18px;
+        font-weight: 400;
+    }
 }
 
 @media only screen and (min-width: 47.5em){
@@ -869,6 +985,26 @@ body.noScroll{
 
     
     /* MANAGE */
+    .manage{
+        padding-block: 72px;
+    }
+    .manage__title{
+        font-size: 38px;
+        margin-bottom: 42px;
+    }
+    .manage__container{
+        gap: 20px 28px;
+    }
+    .manage__bx{
+        row-gap: 17px;
+        padding: 20px 28px 14px 28px;
+    }
+    .manage__icon{
+        width: 50px;
+    }
+    .manage__name{
+        font-size: 19px;
+    }
 }
 
 @media only screen and (min-width: 57.5em){
@@ -894,6 +1030,26 @@ body.noScroll{
 
     
     /* MANAGE */
+    .manage{
+        padding-block: 82px 86px;
+    }
+    .manage__title{
+        font-size: 39px;
+        margin-bottom: 52px;
+    }
+    .manage__container{
+        grid-template-columns: repeat(6, 1fr);
+        gap: 24px 34px;
+    }
+    .manage__bx{
+        grid-column: span 2;
+    }
+    .manage__bx:last-of-type {
+        grid-column-end: -2;
+    }
+    .manage__bx:nth-last-child(2) {
+        grid-column-end: 4;
+    }
 }
 
 @media only screen and (min-width: 62.0625em){
@@ -937,6 +1093,20 @@ body.noScroll{
 
 
     /* MANAGE */
+    .manage{
+        padding-block: 88px 92px;
+    }
+    .manage__title{
+        font-size: 41px;
+        margin-bottom: 56px;
+    }
+    .manage__bx{
+        row-gap: 19px;
+        padding: 23px 31px 15px 31px;
+    }
+    .manage__icon{
+        width: 52px;
+    }
 }
 
 @media only screen and (min-width: 69em){
@@ -958,6 +1128,32 @@ body.noScroll{
     .news__bottom{
         margin-top: auto;
     }
+
+
+    /* MANAGE */
+    .manage{
+        padding-block: 90px 100px;
+    }
+    .manage__title{
+        font-size: 42px;
+        margin-bottom: 58px;
+    }
+    .manage__container{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 26px 28px;
+    }
+    .manage__bx{
+        grid-column: unset;
+        grid-column-end: unset !important;
+        row-gap: 22px;
+        padding: 26px 36px 16px 36px;
+    }
+    .manage__icon{
+        width: 54px;
+    }
+    .manage__name{
+        font-size: 20px;
+    }
 }
 
 @media only screen and (min-width: 76em){
@@ -977,9 +1173,6 @@ body.noScroll{
     .news__bx{
         padding: 26px 34px 27px 36px;
     }
-
-    
-    /* MANAGE */
 }
 
 @media only screen and (min-width: 87.5em){
@@ -1024,9 +1217,25 @@ body.noScroll{
         margin-top: 54px;
     }
 
-
     
     /* MANAGE */
+    .manage{
+        padding-block: 96px 106px;
+    }
+    .manage__title{
+        font-size: 43px;
+        margin-bottom: 62px;
+    }
+    .manage__container{
+        gap: 32px 28px;
+    }
+    .manage__bx{
+        row-gap: 24px;
+        padding: 29px 42px 19px 42px;
+    }
+    .manage__icon{
+        width: 56px;
+    }
 }
 
 @media only screen and (min-width: 102em){
@@ -1072,7 +1281,26 @@ body.noScroll{
         margin-top: 74px;
     }
 
-
     
     /* MANAGE */
+    .manage{
+        padding-block: 116px 128px;
+    }
+    .manage__title{
+        font-size: 46px;
+        margin-bottom: 74px;
+    }
+    .manage__container{
+        gap: 38px;
+    }
+    .manage__bx{
+        row-gap: 26px;
+        padding: 32px 52px 22px 52px;
+    }
+    .manage__icon{
+        width: 58px;
+    }
+    .manage__name{
+        font-size: 21px;
+    }
 }

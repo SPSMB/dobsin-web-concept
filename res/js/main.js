@@ -10,3 +10,9 @@ navToggle.addEventListener('click', () => {
     if(nav.classList.contains('navActive')) navLinks.style.animation = "fadeIn 250ms ease-in-out forwards";
     else navLinks.style.animation = "fadeOut 250ms ease-in-out forwards";
 })
+
+window.onload = () => {
+    setTimeout(() => {
+        // HERE JUST UPDATE STUFF AFTER PAGE IS LOADED
+    }, 10);
+}
