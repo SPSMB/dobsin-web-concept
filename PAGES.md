@@ -1,28 +1,29 @@
 ## UVOD
-- nadpis
-- aktuality
-- Potřebuji si na úřadě zařídit
-- důležité odkazy(čez, GOobec, hlášení rozhlasu)
+- [x] nadpis
+- [x] Header
+- [ ] aktuality
+- [ ] Potřebuji si na úřadě zařídit
+- [ ] důležité odkazy(čez, GOobec, hlášení rozhlasu)
 
 ## INFORMACE
-- základní informace (vodovod - ano)
-- poloha
+- [ ] základní informace (vodovod - ano)
+- [ ] poloha
 
 ## KONTAKTY
-- kontakty
-- členové zastupitelstva
-- komise
+- [ ] kontakty
+- [ ] členové zastupitelstva
+- [ ] komise
 
 ## FOTOGALERIE
-- fotky lidí
-- fotky baráků
-- fotky z akcí
+- [ ] fotky lidí
+- [ ] fotky baráků
+- [ ] fotky z akcí
 
 ## TIPY NA VÝLET
-- tipy na kolo
-- fotky
-- český ráj
+- [ ] tipy na kolo
+- [ ] fotky
+- [ ] český ráj
 
 ## AKTUALITY
-- všechny aktuality
-- filtry na aktuality
+- [ ] všechny aktuality
+- [ ] filtry na aktuality
