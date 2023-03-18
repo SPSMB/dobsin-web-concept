@@ -1,8 +1,8 @@
 ## UVOD
-- [x] nadpis
+- [x] nadpis (in header)
 - [x] Header
-- [ ] aktuality
-- [ ] Potřebuji si na úřadě zařídit
+- [ ] aktuality (news)
+- [ ] Potřebuji si na úřadě zařídit (manage)
 - [ ] důležité odkazy(čez, GOobec, hlášení rozhlasu)
 
 ## INFORMACE
