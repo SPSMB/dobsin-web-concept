@@ -1,18 +1,22 @@
-## UVOD
+## ÚVOD
 - [x] Header
     - [x] nadpis
     - [x] header
 - [x] aktuality (news)
-- [] Potřebuji si zařídit (manage)
+- [ ] Potřebuji si zařídit (manage)
     - [x] Design
     - [ ] Telefoní Čísla
     - [ ] Odkazy
-    - [ ] čez distribuce
     - [ ] czechpoint
     - [ ] územní plán + goobec link/banner
     - [ ] Poplatky
     - [ ] hlášení rozhlasu
     - [ ] multifunkční sál
+    - [ ] ...
+- [ ] sekce pro počasí a čez distribuci (status)
+    - [ ] počasí (https://www.weatherapi.com/)
+    - [ ] čez distribuce
+
 
 ## INFORMACE
 - [ ] základní informace (vodovod - ano)
@@ -36,3 +40,8 @@
 ## AKTUALITY
 - [ ] všechny aktuality
 - [ ] filtry na aktuality
+
+## SDB Dobšín
+- [ ] historie
+- [ ] informace
+- [ ] logo
