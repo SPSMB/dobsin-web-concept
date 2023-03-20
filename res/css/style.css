@@ -20,6 +20,8 @@ body{
 }
 html{
 	box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--nav-height);
 }
 *,::after,::before{
 	box-sizing: inherit;
@@ -97,9 +99,20 @@ body.noScroll{
     justify-content: space-between;
     position: relative;
     background-color: white;
-    position: absolute;
+    position: fixed;
+    z-index: 999;
     width: 100%;
 }
+.nav.start-nav{
+    transition: 225ms ease-in-out;
+}
+.nav.scroll-nav{
+    transition: 225ms ease-in-out;
+}
+.nav.scroll-nav{
+    padding: 28px 38px;
+}
+
 .nav__logoBx{
     display: flex;
 }
@@ -887,6 +900,7 @@ body.noScroll{
 .status__info{
     font-size: 18px;
     font-weight: 400;
+    text-transform: capitalize;
 }
 .status__el{
     display: flex;
