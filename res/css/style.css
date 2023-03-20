@@ -1382,7 +1382,18 @@ body.noScroll{
 
 
     /* STATUS */
-    /* TODO :) */
+    .status__container{
+        margin-top: 12px;
+    }
+    .status__weather{
+        column-gap: 72px;
+    }
+    .status__icon{
+        width: 70px;
+    }
+    .status__elImg{
+        max-width: 330px;
+    }
 }
 
 @media only screen and (min-width: 87.5em){
@@ -1448,6 +1459,24 @@ body.noScroll{
     }
     .manage__icon{
         width: 56px;
+    }
+
+
+    /* STATUS */
+    .status{
+        padding-block: 88px 100px;
+    }
+    .status__container{
+        flex-direction: row;
+        row-gap: 0;
+        column-gap: 156px;
+        align-items: flex-end;
+        margin-top: -24px;
+    }
+    .status__weather{
+        display: flex;
+        column-gap: 0;
+        row-gap: 36px;
     }
 }
 
@@ -1518,5 +1547,29 @@ body.noScroll{
     }
     .manage__name{
         font-size: 21px;
+    }
+
+
+    /* STATUS */
+    .status{
+        padding-block: 94px 110px;
+    }
+    .status__bx{
+        column-gap: 22px;
+    }
+    .status__icon{
+        width: 74px;
+    }
+    .status__text{
+        row-gap: 8px;
+    }
+    .status__subtitle{
+        font-size: 26px;
+    }
+    .status__info{
+        font-size: 21px;
+    }
+    .status__elImg{
+        max-width: 340px;
     }
 }
