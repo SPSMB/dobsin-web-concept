@@ -3,16 +3,16 @@
     - [x] nadpis
     - [x] header
 - [x] aktuality (news)
-- [ ] Potřebuji si zařídit (manage)
+- [x] Potřebuji si zařídit (manage)
     - [x] Design
-    - [ ] Telefoní Čísla
-    - [ ] Odkazy
-    - [ ] czechpoint
-    - [ ] územní plán + goobec link/banner
-    - [ ] Poplatky
-    - [ ] hlášení rozhlasu
-    - [ ] multifunkční sál
-    - [ ] ...
+    - [x] Telefoní Čísla
+    - [x] Odkazy
+    - [x] czechpoint
+    - [x] územní plán + goobec link/banner
+    - [x] Poplatky
+    - [x] hlášení rozhlasu
+    - [x] povinne informace
+    - [x] multifunkční sál
 - [ ] sekce pro počasí a čez distribuci (status)
     - [ ] počasí (https://www.weatherapi.com/)
     - [ ] čez distribuce
