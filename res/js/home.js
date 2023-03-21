@@ -11,7 +11,7 @@ const humidStatus = document.querySelector('.statusHumid');
 
 async function weatherApi(){
     try{
-        const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=dobšín&units=metric&lang=cz&appid=7bfeaeea8782e7eb6ed72fb2b8b7cabb`;
+        const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=50.489527643619034&lon=15.038305142032598&units=metric&lang=cz&appid=7bfeaeea8782e7eb6ed72fb2b8b7cabb`;
 
         const nonParsed = await fetch(weatherUrl);
         const data = await nonParsed.json();
