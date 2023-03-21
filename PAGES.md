@@ -13,9 +13,9 @@
     - [x] hlášení rozhlasu
     - [x] povinne informace
     - [x] multifunkční sál
-- [ ] sekce pro počasí a čez distribuci (status)
-    - [ ] počasí (https://www.weatherapi.com/)
-    - [ ] čez distribuce
+- [x] sekce pro počasí a čez distribuci (status)
+    - [x] počasí (https://www.weatherapi.com/)
+    - [x] čez distribuce
 
 
 ## INFORMACE
@@ -41,7 +41,7 @@
 - [ ] všechny aktuality
 - [ ] filtry na aktuality
 
-## SDB Dobšín
+## SDH Dobšín
 - [ ] historie
 - [ ] informace
 - [ ] logo
