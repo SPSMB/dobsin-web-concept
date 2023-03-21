@@ -13,7 +13,7 @@
     <link rel="manifest" href="./site.webmanifest">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="./res/css/main.css">
+    <link rel="stylesheet" href="./res/css/style.css">
     <link rel="stylesheet" href="./res/css/home.css">
 </head>
 <body>
@@ -28,6 +28,7 @@
             <a href="./informace.html" class="nav__link">Informace</a>
             <a href="./aktuality.html" class="nav__link">Aktuality</a>
             <a href="./tipy.html" class="nav__link">Tipy na výlet</a>
+            <a href="./tipy.html" class="nav__link">SDH Dobšín</a>
             <a href="./kontakty.html" class="nav__link">Kontakt</a>
         </div>
 
@@ -39,14 +40,14 @@
     </nav>
 
 
-    <header class="header">
-        <div class="header__coverImg">
-            <div class="header__cover">
-                <h1 class="header__title">Dobšín - Kamenice</h1>
+    <header class="headerHome">
+        <div class="headerHome__coverImg">
+            <div class="headerHome__cover">
+                <h1 class="headerHome__title">Dobšín - Kamenice</h1>
     
-                <div class="header__btnBx">
-                    <a href="#news" class="header__btn">Aktuality</a>
-                    <a href="#manage" class="header__btn">Potřebuji si zařídit</a>
+                <div class="headerHome__btnBx">
+                    <a href="#news" class="headerHome__btn">Aktuality</a>
+                    <a href="#manage" class="headerHome__btn">Potřebuji si zařídit</a>
                 </div>
             </div>
         </div>
@@ -126,10 +127,6 @@
     <section class="manage" id="manage">
         <h2 class="manage__title sectionTitle">Potřebuji si zařídit</h2>
         <div class="manage__container">
-            <a class="manage__bx" href="./kontakty.html">
-                <img src="./res/img/icons/telephone.png" alt="" aria-hidden="true" draggable="false" class="manage__icon">
-                <p class="manage__name">Telefonní Čísla</p>
-            </a>
             <a class="manage__bx" href="./manage-pages/poplatky.html">
                 <img src="./res/img/icons/hand.png" alt="" aria-hidden="true" draggable="false" class="manage__icon">
                 <p class="manage__name">Poplatky</p>
@@ -154,6 +151,10 @@
                 <img src="./res/img/icons/mandatory-information.png" alt="" aria-hidden="true" draggable="false" class="manage__icon">
                 <p class="manage__name">Povinné informace</p>
             </a>
+            <a class="manage__bx" href="./manage-pages/fotogalerie.html">
+                <img src="./res/img/icons/gallery.png" alt="" aria-hidden="true" draggable="false" class="manage__icon">
+                <p class="manage__name">Fotogalerie</p>
+            </a>
             <a class="manage__bx" href="./manage-pages/sal.html">
                 <img src="./res/img/icons/hall.png" alt="" aria-hidden="true" draggable="false" class="manage__icon">
                 <p class="manage__name">Multifunkční sál</p>
@@ -170,7 +171,7 @@
                 <div class="status__bx">
                     <img src="./res/img/weather/01.png" alt="" aria-hidden="true" draggable="false" class="status__icon">
                     <div class="status__text">  
-                        <h3 class="status__subtitle">Ovzduší</h3>
+                        <h3 class="status__subtitle">Obloha</h3>
                         <p class="status__info">
                             <span class="statusWeather">...</span>
                         </p>

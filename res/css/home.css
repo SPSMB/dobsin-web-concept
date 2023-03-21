@@ -1,13 +1,9 @@
 /* HEADER */
-.header{
+.headerHome{
     width: 100%;
     height: 100vh;
 }
-.header__coverImgBx{
-    display: flex;
-    background-color: hsla(0, 0%, 0%, 0.426);
-}
-.header__coverImg{
+.headerHome__coverImg{
     width: 100%;
     height: 100%;
     background-image: url("../img/dobsin-wallpaper.jpg");
@@ -17,7 +13,7 @@
 
     display: grid;
 }
-.header__cover{
+.headerHome__cover{
     grid-column: 1;
     grid-row: 1;
     width: 100%;
@@ -30,26 +26,26 @@
     color: white;
     row-gap: 38px;
 }
-.header__title{
+.headerHome__title{
     font-weight: 500;
     font-size: 28px;
     letter-spacing: 1px;
     word-spacing: -3px;
 }
-.header__btnBx{
+.headerHome__btnBx{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.header__btnBx{
+.headerHome__btnBx{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: 18px;
 }
-.header__btn{
+.headerHome__btn{
     color: white;
     border: 2px solid var(--bg-light-brown);
     border-radius: 12px;
@@ -59,7 +55,7 @@
     background-color: #8c55351f;
     transition: background-color 225ms ease-in-out;
 }
-.header__btn:hover{
+.headerHome__btn:hover{
     background-color: var(--bg-light-brown);
 }
 
@@ -322,16 +318,16 @@
 /* HOME PAGE BREAKPOINTS */
 @media only screen and (min-width: 33.5em){
     /* HEADER */
-    .header__cover{
+    .headerHome__cover{
         row-gap: 42px;
     }
-    .header__title{
+    .headerHome__title{
         font-size: 36px;
     }
-    .header__btnBx{
+    .headerHome__btnBx{
         row-gap: 20px;
     }
-    .header__btn{
+    .headerHome__btn{
         font-size: 19px;
         padding: 14px 20px;
     }
@@ -421,15 +417,15 @@
 
 @media only screen and (min-width: 47.5em){
     /* HEADER */
-    .header__title{
+    .headerHome__title{
         font-size: 44px;
     }
-    .header__btnBx{
+    .headerHome__btnBx{
         flex-direction: row;
         row-gap: 0;
         column-gap: 20px;
     }
-    .header__btn{
+    .headerHome__btn{
         font-size: 20px;
         padding: 18px 26px;
     }
@@ -525,13 +521,13 @@
 
 @media only screen and (min-width: 57.5em){
     /* HEADER */
-    .header__title{
+    .headerHome__title{
         font-size: 46px;
     }
-    .header__btnBx{
+    .headerHome__btnBx{
         column-gap: 24px;
     }
-    .header__btn{
+    .headerHome__btn{
         padding: 18px 28px;
     }
 
@@ -634,10 +630,10 @@
 
 @media only screen and (min-width: 62.0625em){
     /* HEADER */
-    .header__cover{
+    .headerHome__cover{
         row-gap: 46px;
     }
-    .header__btn{
+    .headerHome__btn{
         font-size: 21px;
     }
 
@@ -751,7 +747,7 @@
 
 @media only screen and (min-width: 76em){
     /* HEADER */
-    .header__title{
+    .headerHome__title{
         font-size: 48px;
     }
 
@@ -785,13 +781,13 @@
 
 @media only screen and (min-width: 87.5em){
     /* HEADER */
-    .header__title{
+    .headerHome__title{
         font-size: 50px;
     }
-    .header__btnBx{
+    .headerHome__btnBx{
         column-gap: 32px;
     }
-    .header__btn{
+    .headerHome__btn{
         font-size: 22px;
         padding: 19px 32px;
     }
@@ -862,13 +858,13 @@
 
 @media only screen and (min-width: 102em){
     /* HEADER */
-    .header__cover{
+    .headerHome__cover{
         row-gap: 52px;
     }
-    .header__title{
+    .headerHome__title{
         font-size: 54px;
     }
-    .header__btn{
+    .headerHome__btn{
         padding: 20px 34px;
     }
 
