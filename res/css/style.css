@@ -110,7 +110,7 @@ body.noScroll{
     transition: 225ms ease-in-out;
 }
 .nav.scroll-nav{
-    padding: 28px 38px;
+    padding: 22px 36px;
 }
 
 .nav__logoBx{
@@ -239,6 +239,9 @@ body.noScroll{
     .nav{
         padding: 50px 66px 38px 66px;
     }
+    .nav.scroll-nav{
+        padding: 34px 58px 30px 58px;
+    }
     .nav__logo{
         width: 68px;
     }
@@ -283,6 +286,9 @@ body.noScroll{
     .nav{
         padding: 52px 94px 40px 94px;
     }
+    .nav.scroll-nav{
+        padding: 42px 80px 32px 82px;
+    }
     .nav__links{
         width: calc(100% - 188px);
         row-gap: 22px;
@@ -306,6 +312,9 @@ body.noScroll{
     .nav{
         padding: 52px 122px 40px 122px;
     }
+    .nav.scroll-nav{
+        padding: 42px 88px 32px 90px;
+    }
     .nav__links{
         width: calc(100% - 244px);
     }
@@ -315,6 +324,9 @@ body.noScroll{
 @media only screen and (min-width: 62.0625em){
     .nav{
         padding: 46px 90px;
+    }
+    .nav.scroll-nav{
+        padding: 38px 78px;
     }
     .nav__logo{
         transition: transform 200ms ease-in-out;
@@ -380,6 +392,9 @@ body.noScroll{
     .nav{
         padding: 52px 124px;
     }
+    .nav.scroll-nav{
+        padding: 41px 104px;
+    }
     .nav__links{
         column-gap: 40px;
     }
@@ -395,6 +410,9 @@ body.noScroll{
     .nav{
         padding: 52px 148px;
     }
+    .nav.scroll-nav{
+        padding: 43px 122px;
+    }
     .nav__links{
         column-gap: 46px;
     }
@@ -406,6 +424,9 @@ body.noScroll{
 @media only screen and (min-width: 102em){
     .nav{
         padding: 62px 158px 62px 132px;
+    }
+    .nav.scroll-nav{
+        padding: 50px 134px 52px 118px;
     }
 }
 
