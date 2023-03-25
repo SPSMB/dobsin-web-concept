@@ -110,7 +110,7 @@ body.noScroll{
     transition: padding 225ms ease-in-out;
 }
 .nav.scroll-nav{
-    padding: 22px 36px;
+    padding-block: 22px;
 }
 
 .nav__logoBx{
@@ -240,7 +240,7 @@ body.noScroll{
         padding: 50px 66px 38px 66px;
     }
     .nav.scroll-nav{
-        padding: 34px 58px 30px 58px;
+        padding-block: 34px 30px;
     }
     .nav__logo{
         width: 68px;
@@ -287,7 +287,7 @@ body.noScroll{
         padding: 52px 94px 40px 94px;
     }
     .nav.scroll-nav{
-        padding: 42px 80px 32px 82px;
+        padding-block: 42px 32px;
     }
     .nav__links{
         width: calc(100% - 188px);
@@ -312,9 +312,6 @@ body.noScroll{
     .nav{
         padding: 52px 122px 40px 122px;
     }
-    .nav.scroll-nav{
-        padding: 42px 88px 32px 90px;
-    }
     .nav__links{
         width: calc(100% - 244px);
     }
@@ -326,7 +323,7 @@ body.noScroll{
         padding: 46px 90px;
     }
     .nav.scroll-nav{
-        padding: 38px 78px;
+        padding-block: 38px;
     }
     .nav__logo{
         transition: transform 200ms ease-in-out;
@@ -385,6 +382,12 @@ body.noScroll{
     }
 }
 
+@media only screen and (min-width: 69em){
+    .nav{
+        padding: 46px 104px;
+    }
+}
+
 @media only screen and (min-width: 76em){
     body{
         font-size: 19px;
@@ -393,7 +396,7 @@ body.noScroll{
         padding: 52px 124px;
     }
     .nav.scroll-nav{
-        padding: 41px 104px;
+        padding-block: 41px;
     }
     .nav__links{
         column-gap: 40px;
@@ -411,7 +414,7 @@ body.noScroll{
         padding: 52px 148px;
     }
     .nav.scroll-nav{
-        padding: 43px 122px;
+        padding-block: 43px;
     }
     .nav__links{
         column-gap: 46px;
@@ -426,7 +429,7 @@ body.noScroll{
         padding: 62px 158px 62px 132px;
     }
     .nav.scroll-nav{
-        padding: 50px 134px 52px 118px;
+        padding-block: 50px 52px;
     }
 }
 
@@ -612,6 +615,9 @@ body.noScroll{
     font-weight: 500;
     margin-bottom: 18px;
 }
+.sectionContainer{
+    padding: 30px 22px 34px 22px;
+}
 
 
 /* HALF-HEADER */
@@ -735,11 +741,20 @@ body.noScroll{
 
 
 /* HOME PAGE BREAKPOINTS */
+@media only screen and (min-width: 26.5em){
+    .sectionContainer{
+        padding: 38px 36px 48px 36px;
+    }
+}
+
 @media only screen and (min-width: 33.5em){
     /* MULTI-SECTION */
     .sectionTitle{
         font-size: 34px;
         margin-bottom: 34px;
+    }
+    .sectionContainer{
+        padding: 42px 58px 46px 58px;
     }
 
 
@@ -761,6 +776,9 @@ body.noScroll{
     .sectionTitle{
         font-size: 38px;
         margin-bottom: 42px;
+    }
+    .sectionContainer{
+        padding: 56px 80px 74px 82px;
     }
 
 
@@ -787,6 +805,9 @@ body.noScroll{
         font-size: 39px;
         margin-bottom: 52px;
     }
+    .sectionContainer{
+        padding: 62px 88px 66px 90px;
+    }
 
 
     /* HALF-HEADER */
@@ -800,6 +821,9 @@ body.noScroll{
     .sectionTitle{
         font-size: 41px;
         margin-bottom: 56px;
+    }
+    .sectionContainer{
+        padding: 62px 78px 64px 78px;
     }
 
 
@@ -815,6 +839,9 @@ body.noScroll{
         font-size: 42px;
         margin-bottom: 58px;
     }
+    .sectionContainer{
+        padding: 62px 98px 64px 98px;
+    }
 
 
     /* HALF-HEADER */
@@ -824,7 +851,9 @@ body.noScroll{
 }
 
 @media only screen and (min-width: 76em){
-    /* MIDDLE */
+    .sectionContainer{
+        padding: 64px 104px 70px 104px;
+    }
 }
 
 @media only screen and (min-width: 87.5em){
@@ -832,6 +861,9 @@ body.noScroll{
     .sectionTitle{
         font-size: 43px;
         margin-bottom: 62px;
+    }
+    .sectionContainer{
+        padding: 72px 122px 78px 122px;
     }
 
 
@@ -853,6 +885,9 @@ body.noScroll{
     .sectionTitle{
         font-size: 46px;
         margin-bottom: 74px;
+    }
+    .sectionContainer{
+        padding: 78px 134px 84px 118px;
     }
 
 

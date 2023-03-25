@@ -66,7 +66,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 42px 14px 46px 14px;
     background: linear-gradient(180deg, var(--text-light-white), white);
 }
 .news__title{
@@ -334,9 +333,6 @@
 
 
     /* NEWS */
-    .news{
-        padding: 46px 34px 50px 34px;
-    }
     .news__title{
         font-size: 32px;
         padding-bottom: 20px;
@@ -432,9 +428,6 @@
 
 
     /* NEWS */
-    .news{
-        padding: 50px 64px 54px 64px;
-    }
     .news__title{
         font-size: 33px;
         padding-bottom: 24px;
@@ -533,9 +526,6 @@
 
 
     /* NEWS */
-    .news{
-        padding: 50px 82px 54px 82px;
-    }
     .news__bx{
         padding: 21px 68px 21px 44px;
     }
@@ -639,9 +629,6 @@
 
 
     /* NEWS */
-    .news{
-        padding: 52px 96px 58px 96px;
-    }
     .news__title{
         font-size: 34px;
         padding-bottom: 26px;
@@ -705,7 +692,7 @@
 @media only screen and (min-width: 69em){
     /* NEWS */
     .news{
-        padding: 52px 46px 58px 46px;
+        padding-inline: 46px;
     }
     .news__title{
         padding-bottom: 24px;
@@ -754,7 +741,7 @@
 
     /* NEWS */
     .news{
-        padding: 56px 66px 66px 66px;
+        padding-inline: 66px;
     }
     .news__container{
         gap: 50px 42px;
@@ -796,7 +783,7 @@
     /* NEWS */
     .news{
         font-size: 19px;
-        padding: 68px 88px 72px 88px;
+        padding-inline: 88px;
     }
     .news__title{
         padding-bottom: 28px;
@@ -871,7 +858,7 @@
 
     /* NEWS */
     .news{
-        padding: 90px 138px 90px 138px;
+        padding-inline: 138px;
     }
     .news__title{
         padding-bottom: 30px;

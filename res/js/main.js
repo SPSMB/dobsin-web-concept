@@ -16,11 +16,11 @@ navToggle.addEventListener('click', () => {
 window.addEventListener('scroll', () => {
     if(window.pageYOffset > 30){
         nav.classList.remove('start-nav');
-        nav.classList.add('scroll-nav');
+        nav.classList.add('scroll-nav', 'sectionContainer');
     }
     else{
         nav.classList.add('start-nav');
-        nav.classList.remove('scroll-nav');
+        nav.classList.remove('scroll-nav', 'sectionContainer');
     }
 
     document.documentElement.style.setProperty('--nav-height', `${nav.clientHeight}px`);
