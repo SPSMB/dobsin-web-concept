@@ -838,6 +838,7 @@
     }
     .status__weather{
         display: flex;
+        align-items: flex-start;
         column-gap: 0;
         row-gap: 36px;
     }
