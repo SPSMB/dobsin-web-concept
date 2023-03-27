@@ -342,7 +342,7 @@
         row-gap: 36px;
     }
     .news__bx{
-        padding: 18px 26px;
+        padding: 18px;
     }
     .news__subtitle{
         font-size: 22px;
@@ -408,6 +408,12 @@
     }
     .status__elImg{
         max-width: 270px;
+    }
+}
+
+@media only screen and (min-width: 33.5em) and (max-width: 35.75em){
+    .news{
+        padding: 42px 42px 46px 42px;
     }
 }
 
@@ -729,6 +735,12 @@
     }
     .manage__name{
         font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 69em) and (max-width: 75em){
+    .news{
+        padding: 62px 64px 64px 64px;
     }
 }
 
