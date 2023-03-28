@@ -26,8 +26,17 @@ const queryString = window.location.search;
 const queryParams = new URLSearchParams(queryString);
 const queryFilter = queryParams.get('filter');
 
+
 if(queryFilter !== null){
-    sortNews(queryFilter)
+    const filterCategories =  Array.from(filterBtns).map(e => e.getAttribute('data-filter-type'));
+
+    if(filterCategories.includes(queryFilter)){
+        sortNews(queryFilter);
+    
+        let catId = filterCategories.indexOf(queryFilter);
+    
+        currentFilter.innerText = filterBtns[catId].textContent;
+    }
 }
 
 
