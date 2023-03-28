@@ -23,29 +23,22 @@
 
 ## INFORMACE
 - [x] Design
-- [ ] Obsah
+- [x] Obsah
     - [ ] základní informace (vodovod - ano)
     - [ ] poloha
 
-## KONTAKTY
-- [ ] Design
+## AKTUALITY
+- [x] Design
 - [ ] Obsah
-    - [ ] kontakty
-    - [ ] členové zastupitelstva
-    - [ ] komise
+    - [ ] všechny aktuality
+    - [x] filtry na aktuality
 
 ## TIPY NA VÝLET
-- [ ] Design
+- [x] Design
 - [ ] Obsah
     - [ ] tipy na kolo
     - [ ] fotky
     - [ ] český ráj
-
-## AKTUALITY
-- [ ] Design
-- [ ] Obsah
-    - [ ] všechny aktuality
-    - [ ] filtry na aktuality
 
 ## SDH Dobšín
 - [ ] Design
@@ -54,6 +47,12 @@
     - [ ] informace
     - [ ] logo
 
+## KONTAKTY
+- [ ] Design
+- [ ] Obsah
+    - [ ] kontakty
+    - [ ] členové zastupitelstva
+    - [ ] komise
 
 ---
 # MANAGE SECTION - PODSTRÁNKY

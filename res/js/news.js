@@ -21,6 +21,17 @@ const filterBtns = document.querySelectorAll('.filter__btn');
 const newsBxs = document.querySelectorAll('.news__bx');
 const currentFilter = document.querySelector('.filter__selected');
 
+// Redirect from different page to specific category
+const queryString = window.location.search;
+const queryParams = new URLSearchParams(queryString);
+const queryFilter = queryParams.get('filter');
+
+if(queryFilter !== null){
+    sortNews(queryFilter)
+}
+
+
+// Filter btns
 filterBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
         let currentType = btn.getAttribute('data-filter-type');
@@ -33,6 +44,7 @@ filterBtns.forEach((btn) => {
     })
 })
 
+// Sort news function
 function sortNews(type){
     if(type === "all"){
         newsBxs.forEach((newsBx) => {
