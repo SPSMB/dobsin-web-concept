@@ -24,24 +24,23 @@
 ## INFORMACE
 - [x] Design
 - [x] Obsah
-    - [ ] základní informace (vodovod - ano)
-    - [ ] poloha
+    - [x] základní informace (vodovod - ano)
+    - [x] poloha
 
 ## AKTUALITY
 - [x] Design
-- [ ] Obsah
-    - [ ] všechny aktuality
+- [x] Obsah
+    - [x] všechny aktuality
     - [x] filtry na aktuality
 
 ## TIPY NA VÝLET
 - [x] Design
 - [ ] Obsah
-    - [ ] tipy na kolo
-    - [ ] fotky
-    - [ ] český ráj
+    - [x] tipy na kolo
+    - [x] fotky
 
 ## SDH Dobšín
-- [ ] Design
+- [x] Design
 - [ ] Obsah
     - [ ] historie
     - [ ] informace
