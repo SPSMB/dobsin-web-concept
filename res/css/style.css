@@ -918,8 +918,13 @@ body.noScroll{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 32px;
     background: linear-gradient(180deg, white, var(--text-light-white));
+}
+.mainInfo__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 32px;
 }
 .mainInfo__bx{
     display: grid;
@@ -961,7 +966,7 @@ body.noScroll{
 
 
 @media only screen and (min-width: 33.5em){
-    .mainInfo{
+    .mainInfo__container{
         row-gap: 42px;
     }
     .mainInfo__bx{
@@ -976,7 +981,7 @@ body.noScroll{
 }
 
 @media only screen and (min-width: 47.5em){
-    .mainInfo{
+    .mainInfo__container{
         row-gap: 50px;
     }
     .mainInfo__bx{
@@ -994,7 +999,7 @@ body.noScroll{
 }
 
 @media only screen and (min-width: 57.5em){
-    .mainInfo{
+    .mainInfo__container{
         row-gap: 54px;
     }
     .mainInfo__title{
@@ -1006,7 +1011,7 @@ body.noScroll{
 }
 
 @media only screen and (min-width: 62.0625em){
-    .mainInfo{
+    .mainInfo__container{
         row-gap: 60px;
     }
     .mainInfo__bx{
@@ -1024,7 +1029,7 @@ body.noScroll{
 }
 
 @media only screen and (min-width: 69em){
-    .mainInfo{
+    .mainInfo__container{
         row-gap: 66px;
     }
     .mainInfo__bx:nth-of-type(2n - 1){
@@ -1052,7 +1057,7 @@ body.noScroll{
 }
 
 @media only screen and (min-width: 76em){
-    .mainInfo{
+    .mainInfo__container{
         row-gap: 70px;
     }
     .mainInfo__bx{
@@ -1069,6 +1074,8 @@ body.noScroll{
 @media only screen and (min-width: 87.5em){
     .mainInfo{
         font-size: 19px;
+    }
+    .mainInfo__container{
         row-gap: 76px;
     }
     .mainInfo__bx{
@@ -1079,6 +1086,8 @@ body.noScroll{
 @media only screen and (min-width: 102em){
     .mainInfo{
         font-size: unset;
+    }
+    .mainInfo__container{
         row-gap: 96px;
     }
     .mainInfo__bx{
