@@ -10,4 +10,4 @@
 - [ ] Foto-galerie vesnice
 - [ ] Základní informace o vesnici (rozloha, počet obyvatel, kde se nachází...)
 - [ ] Presentation
-- [ ] 
+
