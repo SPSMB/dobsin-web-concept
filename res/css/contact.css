@@ -1,0 +1,51 @@
+:root{
+    --bg-light-brown: #8C5535;
+    --bg-dark-brown: #59331D;
+    --text-light-white: #fbf9f2;
+}
+
+
+
+
+.main__contact{
+    display: grid;
+    row-gap: 14px;
+    margin-bottom: 22px;
+}
+.contact__bx{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 3px;
+}
+.contact__title{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--bg-dark-brown);
+}
+.contact__info{
+    font-size: 17px;
+    font-weight: 400;
+}
+.member__status{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--bg-dark-brown);
+}
+.member__name{
+    font-size: 18px;
+    font-weight: 400;
+}
+.member__contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+.member__iconBx{
+    display: flex;
+}
+.member__icon{
+    width: 30px;
+}
