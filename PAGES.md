@@ -35,7 +35,7 @@
 
 ## TIPY NA VÝLET
 - [x] Design
-- [ ] Obsah
+- [x] Obsah
     - [x] tipy na kolo
     - [x] fotky
 
@@ -47,11 +47,11 @@
     - [ ] logo
 
 ## KONTAKTY
-- [ ] Design
-- [ ] Obsah
-    - [ ] kontakty
-    - [ ] členové zastupitelstva
-    - [ ] komise
+- [x] Design
+- [x] Obsah
+    - [x] kontakty
+    - [x] členové zastupitelstva
+    - [x] komise
 
 ---
 # MANAGE SECTION - PODSTRÁNKY
