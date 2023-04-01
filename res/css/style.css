@@ -1314,7 +1314,27 @@ body.noScroll{
     width: 70%;
 }
 
+
+
 /* HOME PAGE BREAKPOINTS */
+@media only screen and (max-width: 25em){
+    .main, .news{
+        padding: 30px 16px 34px 16px;
+    }
+    .news__bx{
+        padding: 12px 14px;
+    }
+    .news__bottom, .news__more{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 33.5em) and (max-width: 35.5em){
+    .main, .news{
+        padding: 42px 40px 46px 40px;
+    }
+}
+
 @media only screen and (min-width: 33.5em){
     /* NEWS */
     .news__title{
@@ -1348,12 +1368,6 @@ body.noScroll{
     .news__all{
         font-size: 20px;
         margin-top: 42px;
-    }
-}
-
-@media only screen and (min-width: 33.5em) and (max-width: 35.75em){
-    .main{
-        padding: 42px 42px 46px 42px;
     }
 }
 
@@ -1423,11 +1437,38 @@ body.noScroll{
     }
 }
 
+@media only screen and (min-width: 69em) and (max-width: 75em){
+    .news, .main{
+        padding-inline: 44px;
+    }
+    .news__bx{
+        padding-inline: 20px 24px;
+    }
+    .news__bottomBx{
+        column-gap: 10px;
+    }
+    .news__bottomIcon{
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 75.0625em) and (max-width: 83em){
+    .news, .main{
+        padding-inline: 84px;
+    }
+    .news__bottomBx{
+        column-gap: 10px;
+    }
+    .news__bottomIcon{
+        width: 30px;
+    }
+    .news__bx{
+        padding: 26px 24px 27px 30px !important;
+    }
+}
+
 @media only screen and (min-width: 69em){
     /* NEWS */
-    .main{
-        padding-inline: 46px;
-    }
     .news__title{
         padding-bottom: 24px;
         margin-bottom: 48px;
@@ -1444,17 +1485,8 @@ body.noScroll{
     }
 }
 
-@media only screen and (min-width: 69em) and (max-width: 75em){
-    .main{
-        padding: 62px 64px 64px 64px;
-    }
-}
-
 @media only screen and (min-width: 76em){
     /* NEWS */
-    .news{
-        padding-inline: 66px;
-    }
     .news__container{
         gap: 50px 42px;
     }
@@ -1463,11 +1495,19 @@ body.noScroll{
     }
 }
 
+@media only screen and (min-width: 87.5em) and (max-width: 92em){
+    .news, .main{
+        padding-inline: 106px;
+    }
+    .news__bx{
+        padding-inline: 52px 42px !important;
+    }
+}
+
 @media only screen and (min-width: 87.5em){
     /* NEWS */
-    .news{
+    .news, .main{
         font-size: 19px;
-        padding-inline: 88px;
     }
     .news__title{
         padding-bottom: 28px;
@@ -1495,7 +1535,7 @@ body.noScroll{
 
 @media only screen and (min-width: 102em){
     /* NEWS */
-    .news{
+    .news, .main{
         padding-inline: 138px;
     }
     .news__title{

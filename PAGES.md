@@ -1,5 +1,5 @@
 # NAVBAR - STRÁNKY
-## USED IMAGES - dobsin-main, wallpaper2, kost, hasic, wallpaper3
+## USED IMAGES - dobsin-main, wallpaper2, kost, hasic, wallpaper3, dobsin-skola
 
 ## ÚVOD
 - [x] Header
