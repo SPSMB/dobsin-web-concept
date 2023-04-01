@@ -25,6 +25,8 @@
 }
 .member__iconBx{
     display: flex;
+    border-radius: 50%;
+    overflow: hidden;
 }
 .member__icon{
     width: 90px;
@@ -144,7 +146,7 @@
 
 @media only screen and (min-width: 102em){
     .main__members{
-        row-gap: 70px 126px;
+        gap: 70px 126px;
     }
     .main__member{
         row-gap: 22px;
