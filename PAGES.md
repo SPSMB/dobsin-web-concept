@@ -1,4 +1,5 @@
 # NAVBAR - STRÁNKY
+## USED IMAGES - dobsin-main, wallpaper2, kost, hasic, wallpaper3
 
 ## ÚVOD
 - [x] Header
@@ -41,10 +42,10 @@
 
 ## SDH Dobšín
 - [x] Design
-- [ ] Obsah
-    - [ ] historie
-    - [ ] informace
-    - [ ] logo
+- [x] Obsah
+    - [x] historie
+    - [x] informace
+    - [x] logo
 
 ## KONTAKTY
 - [x] Design
