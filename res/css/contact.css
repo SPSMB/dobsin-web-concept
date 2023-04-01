@@ -1,12 +1,3 @@
-:root{
-    --bg-light-brown: #8C5535;
-    --bg-dark-brown: #59331D;
-    --text-light-white: #fbf9f2;
-}
-
-
-
-
 .main{
     background: linear-gradient(0deg, var(--text-light-white), white);
 }
@@ -281,10 +272,6 @@
         row-gap: 42px;
         margin-top: -6px;
     }
-}
-
-@media only screen and (min-width: 62.0625em){
-
 }
 
 @media only screen and (min-width: 69em){

@@ -1,3 +1,8 @@
+/* NAV - Logo */
+.nav.navActive .nav__logoBx{
+    pointer-events: none;
+}
+
 /* HEADER */
 .headerHome{
     width: 100%;

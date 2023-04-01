@@ -55,7 +55,7 @@ filterBtns.forEach((btn) => {
 
 // Sort news function
 function sortNews(type){
-    if(type === "all"){
+    if(type === "vse"){
         newsBxs.forEach((newsBx) => {
             newsBx.style.display = "flex";
         })

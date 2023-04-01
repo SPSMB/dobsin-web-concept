@@ -38,6 +38,8 @@
         </div>
     </nav>
 
+    <span class="nav__shadowElement desktopHidden"></span>
+
 
     <header class="halfHeader">
         <div class="header__img">
@@ -97,33 +99,32 @@
 
     <footer class="footer">
         <div class="footer__container">
-            <div class="footer__bx">
-                <h3 class="footer__title">Stránky1</h3>
-                <div class="footer__linkBx">
-                    <a href="#" class="footer__link">Úvod</a>
-                    <a href="#" class="footer__link">Informace</a>
-                    <a href="#" class="footer__link">Aktuality</a>
-                    <a href="#" class="footer__link">Tipy na výlet</a>
-                </div>
-            </div>
-
-            <div class="footer__bx">
-                <h3 class="footer__title">Stránky2</h3>
-                <div class="footer__linkBx">
-                    <a href="#" class="footer__link">Úvod</a>
-                    <a href="#" class="footer__link">Informace</a>
-                    <a href="#" class="footer__link">Aktuality</a>
-                    <a href="#" class="footer__link">Tipy na výlet</a>
+            <div class="footer__bx footerDouble">
+                <h3 class="footer__title">Rychlé Odkazy</h3>
+                <div class="footer__doubleBx">
+                    <div class="footer__linkBx">
+                        <a href="./manage-pages/povinne-informace.html" class="footer__link">Povinné Informace</a>
+                        <a href="./manage-pages/poplatky.html" class="footer__link">Poplatky</a>
+                        <a href="./manage-pages/fotogalerie.html" class="footer__link">Fotogalerie</a>
+                        <a href="./manage-pages/odkazy.html" class="footer__link">Odkazy</a>
+                    </div>
+    
+                    <div class="footer__linkBx">
+                        <a href="./manage-pages/uzemni-plan.html" class="footer__link">Územní Plán</a>
+                        <a href="./manage-pages/rozhlas.html" class="footer__link">Hlášení Rozhlasu</a>
+                        <a href="https://www.czechpoint.cz/public/" class="footer__link">Czech POINT</a>
+                        <a href="./manage-pages/sal.html" class="footer__link">Multifunkční Sál</a>
+                    </div>
                 </div>
             </div>
             
             <div class="footer__bx">
-                <h3 class="footer__title">Články</h3>
+                <h3 class="footer__title">Aktuality</h3>
                 <div class="footer__linkBx">
-                    <a href="#" class="footer__link">Dokumenty</a>
-                    <a href="#" class="footer__link">Rozpočet</a>
-                    <a href="#" class="footer__link">Zápisy</a>
-                    <a href="#" class="footer__link">Dotace</a>
+                    <a href="./aktuality.html?filter=informace" class="footer__link">Informace</a>
+                    <a href="./aktuality.html?filter=dokumenty" class="footer__link">Dokumenty</a>
+                    <a href="./aktuality.html?filter=rozpocet" class="footer__link">Rozpočet</a>
+                    <a href="./aktuality.html?filter=zapisy" class="footer__link">Zápisy Zasedání</a>
                 </div>
             </div>
 
@@ -147,7 +148,14 @@
             </div>
         </div>
         <div class="footer__createdBy">
-            Created by <a href="https://github.com/ttoomas" class="footer__link footerLinkRight">ttoomas</a>
+            Vytvořili
+            <div class="created__bx">
+                <a href="https://github.com/ttoomas" class="footer__link footerCreatedLink footerLinkRight">Tomáš Folprecht</a>
+                <span class="created__and">&</span>
+                <a href="https://github.com/pavel-skala" class="footer__link footerCreatedLink footerLinkRight">Pavel Skála</a>
+                <span class="created__and">&</span>
+                <a href="https://github.com/lukas02727" class="footer__link footerCreatedLink footerLinkRight">Lukáš Hodovník</a>
+            </div>
         </div>
     </footer>
 

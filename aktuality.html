@@ -39,6 +39,8 @@
         </div>
     </nav>
 
+    <span class="nav__shadowElement desktopHidden"></span>
+
 
     <header class="halfHeader">
         <div class="header__img">
@@ -64,18 +66,18 @@
                     <img src="./res/img/icons/down-arrow.png" alt="" aria-hidden="true" draggable="false" class="filter__icon">
                 </button>
                 <div class="filter__bx">
-                    <button class="filter__btn filterBtn" data-filter-type="all">Vše</button>
-                    <button class="filter__btn filterBtn" data-filter-type="info">Informace</button>
-                    <button class="filter__btn filterBtn" data-filter-type="doc">Dokumenty</button>
-                    <button class="filter__btn filterBtn" data-filter-type="budget">Rozpočet</button>
-                    <button class="filter__btn filterBtn" data-filter-type="meet">Zápisy Zasedání</button>
-                    <button class="filter__btn filterBtn" data-filter-type="others">Ostatní</button>
+                    <button class="filter__btn filterBtn" data-filter-type="vse">Vše</button>
+                    <button class="filter__btn filterBtn" data-filter-type="informace">Informace</button>
+                    <button class="filter__btn filterBtn" data-filter-type="dokumenty">Dokumenty</button>
+                    <button class="filter__btn filterBtn" data-filter-type="rozpocet">Rozpočet</button>
+                    <button class="filter__btn filterBtn" data-filter-type="zapisy">Zápisy Zasedání</button>
+                    <button class="filter__btn filterBtn" data-filter-type="ostatni">Ostatní</button>
                 </div>
             </div>
         </div>
         
         <div class="main__news">
-            <div class="news__bx" data-news-type="info">
+            <div class="news__bx" data-news-type="informace">
                 <h3 class="news__subtitle">Vodné a stočné na Jičínsku vzroste o 10 %</h3>
                 <p class="news__text">Vodohospodářská a obchodní společnost a. s. zvýší od roku 2023 ceny vodného a stočného celkově o zhruba 10 %. Zákazníci budou nově platit 94,96 Kč/m³, což je zhruba o 8,75 Kč za metr krychlový více než letos.   Do ceny se promítne nárůst inflace, růst cen služeb a také vstupních materiálů pro opravy vodárenské infrastruktury. Společnost chce i nadále držet vyrovnané hospodaření a investovat do obnovy své infrastruktury.   </p>
                 <div class="news__bottom">
@@ -90,7 +92,7 @@
                     <a href="#" class="news__more">Celý článek</a>
                 </div>
             </div>
-            <div class="news__bx" data-news-type="doc">
+            <div class="news__bx" data-news-type="dokumenty">
                 <h3 class="news__subtitle">MČR - oznámení o zveřejnění Závěrečného účtu včetně Zprávy o výsledku přezkoumání hospodaření</h3>
                 <p class="news__text">Závěrečný účet včetně Zprávy o výsledku přezkoumání hospodaření dobrovolného svazku obcí MIKROREGION ČESKÝ RÁJ POD MUŽSKÝM za rok 2021 je zveřejněn v elektronické podobě na internetových stánkách https://craj-pod-muzskym.cz/dokumenty-svazku/ Do jeho listinné podoby lze nahlédnout v kanceláři Obecního úřadu Kněžmost, Na Rynku 51, 294 02 Kněžmost.</p>
                 <div class="news__bottom">
@@ -105,7 +107,7 @@
                     <a href="#" class="news__more">Celý článek</a>
                 </div>
             </div>
-            <div class="news__bx" data-news-type="info">
+            <div class="news__bx" data-news-type="informace">
                 <h3 class="news__subtitle">Respirátory pro občany</h3>
                 <p class="news__text">Obecní úřad nabízí spoluobčanům respirátory FFP2. Zájemci si mohou vyzvednout max. 4ks na osobu starší 15 let na OÚ během úředních hodin v úterý nebo v pátek.</p>
                 <div class="news__bottom">
@@ -120,7 +122,7 @@
                     <a href="#" class="news__more">Celý článek</a>
                 </div>
             </div>
-            <div class="news__bx" data-news-type="info">
+            <div class="news__bx" data-news-type="informace">
                 <h3 class="news__subtitle">Výsledky druhého kola voleb prezidenta republiky v obci Dobšín</h3>
                 <p class="news__text">VOLEBNÍ ÚČAST 77,43 %<br>
                     Petr Pavel 60,82 % 104 hlasů<br>
@@ -137,8 +139,8 @@
                     <a href="#" class="news__more">Celý článek</a>
                 </div>
             </div>
-            <div class="news__bx" data-news-type="info">
-                <h3 class="news__subtitle">Nabídka čištění komínů – kominictví Anděl</h3>
+            <div class="news__bx" data-news-type="informace">
+                <h3 class="news__subtitle">Nabídka čištění komínů - kominictví Anděl</h3>
                 <p class="news__text">leták: <a href="">letak_kominictvi_andel_2022.pdf</a></p>
                 <div class="news__bottom">
                     <div class="news__bottomBx">
@@ -173,33 +175,32 @@
 
     <footer class="footer">
         <div class="footer__container">
-            <div class="footer__bx">
-                <h3 class="footer__title">Stránky1</h3>
-                <div class="footer__linkBx">
-                    <a href="#" class="footer__link">Úvod</a>
-                    <a href="#" class="footer__link">Informace</a>
-                    <a href="#" class="footer__link">Aktuality</a>
-                    <a href="#" class="footer__link">Tipy na výlet</a>
-                </div>
-            </div>
-
-            <div class="footer__bx">
-                <h3 class="footer__title">Stránky2</h3>
-                <div class="footer__linkBx">
-                    <a href="#" class="footer__link">Úvod</a>
-                    <a href="#" class="footer__link">Informace</a>
-                    <a href="#" class="footer__link">Aktuality</a>
-                    <a href="#" class="footer__link">Tipy na výlet</a>
+            <div class="footer__bx footerDouble">
+                <h3 class="footer__title">Rychlé Odkazy</h3>
+                <div class="footer__doubleBx">
+                    <div class="footer__linkBx">
+                        <a href="./manage-pages/povinne-informace.html" class="footer__link">Povinné Informace</a>
+                        <a href="./manage-pages/poplatky.html" class="footer__link">Poplatky</a>
+                        <a href="./manage-pages/fotogalerie.html" class="footer__link">Fotogalerie</a>
+                        <a href="./manage-pages/odkazy.html" class="footer__link">Odkazy</a>
+                    </div>
+    
+                    <div class="footer__linkBx">
+                        <a href="./manage-pages/uzemni-plan.html" class="footer__link">Územní Plán</a>
+                        <a href="./manage-pages/rozhlas.html" class="footer__link">Hlášení Rozhlasu</a>
+                        <a href="https://www.czechpoint.cz/public/" class="footer__link">Czech POINT</a>
+                        <a href="./manage-pages/sal.html" class="footer__link">Multifunkční Sál</a>
+                    </div>
                 </div>
             </div>
             
             <div class="footer__bx">
-                <h3 class="footer__title">Články</h3>
+                <h3 class="footer__title">Aktuality</h3>
                 <div class="footer__linkBx">
-                    <a href="#" class="footer__link">Dokumenty</a>
-                    <a href="#" class="footer__link">Rozpočet</a>
-                    <a href="#" class="footer__link">Zápisy</a>
-                    <a href="#" class="footer__link">Dotace</a>
+                    <a href="./aktuality.html?filter=informace" class="footer__link">Informace</a>
+                    <a href="./aktuality.html?filter=dokumenty" class="footer__link">Dokumenty</a>
+                    <a href="./aktuality.html?filter=rozpocet" class="footer__link">Rozpočet</a>
+                    <a href="./aktuality.html?filter=zapisy" class="footer__link">Zápisy Zasedání</a>
                 </div>
             </div>
 
@@ -223,7 +224,14 @@
             </div>
         </div>
         <div class="footer__createdBy">
-            Created by <a href="https://github.com/ttoomas" class="footer__link footerLinkRight">ttoomas</a>
+            Vytvořili
+            <div class="created__bx">
+                <a href="https://github.com/ttoomas" class="footer__link footerCreatedLink footerLinkRight">Tomáš Folprecht</a>
+                <span class="created__and">&</span>
+                <a href="https://github.com/pavel-skala" class="footer__link footerCreatedLink footerLinkRight">Pavel Skála</a>
+                <span class="created__and">&</span>
+                <a href="https://github.com/lukas02727" class="footer__link footerCreatedLink footerLinkRight">Lukáš Hodovník</a>
+            </div>
         </div>
     </footer>
 

@@ -130,10 +130,10 @@ body.noScroll{
     left: 50%;
     transform: translateX(-50%);
 
-    width: calc(100% - 88px);
+    width: 100%;
     background-color: var(--bg-light-brown);
     padding-block: 24px;
-    border-radius: 12px;
+    border-radius: 0 0 12px 12px;
     z-index: 999;
 
     visibility: hidden;
@@ -200,6 +200,19 @@ body.noScroll{
     width: 42px;
     transform: rotate(-45deg);
 }
+.nav__shadowElement{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background-color: #00000070;
+    
+    visibility: hidden;
+    opacity: 0;
+}
 
 
 @keyframes fadeIn {
@@ -245,9 +258,6 @@ body.noScroll{
     .nav__logo{
         width: 68px;
     }
-    .nav__links{
-        width: calc(100% - 132px);
-    }
     .nav__toggleBx{
         row-gap: 9px;
     }
@@ -290,7 +300,6 @@ body.noScroll{
         padding-block: 42px 32px;
     }
     .nav__links{
-        width: calc(100% - 188px);
         row-gap: 22px;
     }
     .nav__link.navActiveLink::before,
@@ -311,9 +320,6 @@ body.noScroll{
 @media only screen and (min-width: 57.5em){
     .nav{
         padding: 52px 122px 40px 122px;
-    }
-    .nav__links{
-        width: calc(100% - 244px);
     }
 }
 
