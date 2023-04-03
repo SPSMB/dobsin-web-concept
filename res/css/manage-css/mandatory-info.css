@@ -41,6 +41,12 @@
 .main__text.textLink:hover::before{
     width: 60%;
 }
+.main__textTitle{
+    font-size: calc(1em + 1px);
+    color: var(--bg-dark-brown);
+    font-weight: 500;
+    margin-block: 6px 2px;
+}
 
 
 @media only screen and (max-width: 26.5em){
@@ -52,6 +58,9 @@
 @media only screen and (min-width: 33.5em){
     .main__title{
         font-size: calc(1em + 5px);
+    }
+    body{
+        background: red;
     }
 }
 
